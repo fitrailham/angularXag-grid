@@ -9,6 +9,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
