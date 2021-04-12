@@ -10,12 +10,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { PertamaSimpelComponent } from './aplikasi-ag-grid/ag-grid-list/pertama-simpel/pertama-simpel.component';
+import { KeduaComponent } from './aplikasi-ag-grid/ag-grid-list/kedua/kedua.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    LoginComponent
+    LoginComponent,
+    PertamaSimpelComponent,
+    KeduaComponent
   ],
   imports: [
     BrowserModule,
